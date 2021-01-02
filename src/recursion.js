@@ -70,7 +70,8 @@ var sumBelow = function(n) {
   if (n === 0) {
     return sum;
   } else {
-    sum += sum(n - 1);
+    sum += 
+    sumBelow(n - 1);
   }
 };
 
